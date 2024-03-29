@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.sub-header1{
+    width: 300px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+    background-color: #343a40;
+	z-index: 100;
+	transition: width 300ms;
+}
+
+.navbar{
+    height: 90px;
+	padding: 1rem 0rem 1rem 2rem;
+	color: #fff;
+}
+
+.navbar a .logo{
+   position: relative;
+   margin-top: 10px;
+    width: 230px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.navbar ul li{
+    margin-left: 10px;
+    margin-bottom: 50px;
+    list-style: none;
+    position: relative;
+  
+}
+.navbar ul li a{                                           
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;    
+}
+
+.navbar ul li:hover{
+    background: #008ea1;;
+	padding-top: 10px;
+    padding-left: 50px;
+    margin-left: -10px;
+	padding-bottom: 1rem;
+	border-radius: 25px 0px 0px 0px;
+}
+
+/*-------- nTable ----------*/
+h1{
+    margin-left: 49%;
+    font-size: 45px;
+    font-weight: 300;
+  }
+  table{
+    border-collapse: collapse;
+    background-color: #ececec;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 27%;
+    margin-bottom: 40px;
+    width: 30%;
+  }
+  tr{
+    border-color: #24262b;
+  }
+th,td{
+    border: 1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    border-color: #24262b;
+}
+th{
+    font-weight: 600;
+    font-size: 18px;
+    color: #24262b;
+}
+td{
+    font-size: 15px;
+    color: #343a40;
+}
+.fa-edit{color: #63c76a;}
+.fa-trash{color: #ff0000;}
+
+ 

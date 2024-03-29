@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>Interior Design Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width , intial-scale=1.0">
+        <link rel="stylesheet" href="/css/byc.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/logout.js"></script>
+<script src="js/byc.js"></script>
+
+
+</head>
+    <body>
+
+        <div class="sub-header1">
+            <div class="navbar">
+                <a href="index.html">
+                    <img src="images/logo2.jpg" class="logo">
+                </a>
+                <ul>
+                    <li><a href="hw.html">How it Works</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li class="dropdown">
+                      <button class="dropbtn">Project
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="drop-content">
+                          <a href="project.html">View Project</a>
+                          <a href="create_project.html" id="cp">Project Details</a>
+                          <a href="table.html"  id="table">Report</a>
+                         
+                      </div>
+                  </li>
+                  <li><a href="login.html">
+                    <button id="loginMenu" class="login">LOGIN</button></a>
+                </li>
+                <li>
+                    <button id="logoutMenu" class="login" onclick="logout()">LOGOUT</button>
+                </li>
+                </ul>
+               
+            </div>  
+        </div>
+    <body>
+      <h1>Book Your Consulation</h1>
+<div class="main-wrapper"  id="Myform" >
+  
+            <div class="form-wrapper">
+              
+                <div class="sub-box" >
+                  <label for="name"> Full Name </label>
+                  <input type="text"  name="name"  id="name" placeholder="Full Name" required > 
+                  <span id="nameError" class="error"></span>
+                 
+                 </div>
+                  
+                <div class="sub-box">
+                  <label for="phone"> Phone Number </label>
+                  <input type="text"  name="phone"  id="phone"  placeholder="Enter your phone number" >
+                  <span id="phoneNo" class="error"></span>
+                  <span id="phoneError" class="error"></span>
+                </div>
+
+    
+                <div class="sub-box">
+                  <label for="email"> Email Address </label>
+                  <input  type="email"  name="email"  id="email"  placeholder="Enter your email" >
+                  <span id="emailC" class="error"></span>
+                   <span id="emailError" class="error"></span>
+                </div>
+
+
+                <div class="flex-box">
+                  <div class="flex-wrap">
+                    <div class="sub-box ">
+                      <label for="date"> Date </label>
+                      <input  type="date"  name="date"  id="date"/>
+                      <span id="dateError" class="error"></span>
+                    </div>
+                  </div>
+                  <div class="flex-wrap">
+                    <div class="sub-box">
+                      <label for="time"> Time </label>
+                      <input  type="time"  name="time"  id="time">
+                      <span id="timeError" class="error"></span>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="sub-box">
+                  <label>  Address Details</label>
+                        <input  type="text"  name="area"  id="area"  placeholder="Enter Address" />
+                        <span id="areaError" class="error"></span>
+                  </div>
+          
+                  <button id="btn" class="btn" onclick="validForm()">Book My Apppoitnment</button>
+            </div>
+        </div>
+            
+
+          <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>ALCOVE STUDIO</h4>
+                        <ul>
+                            <li><a href="hw.html"h>How it Works</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>More</h4>
+                        <ul>
+                            <li><a href="blog.html">Blogs</a></li>
+                            <li><a href="terms.html">Terms & Condition</a></li>
+                            <li><a href="privacy.html">Privacy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Contact Info</h4>
+                        <p><i class="fa fa-map"></i>  Sarojini Naidu Rd,Near Court,Ashok Nagar,Mulund West,Mumbai,Maharastra 400080</p>
+                        <p><i class="fa fa-phone"></i>  +91 8433831144</p>
+                        <p>Time -  10:00 AM-6:00 PM</p>
+                        <p><i class="fa fa-envelope"></i>  parte.shubham@gmail.com</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get in Touch</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/shubham.parte.980"><i class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/parte.shubham0205?igshid=MzNlNGNkZWQ4Mg=="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shubham-parte-a60219231/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/shubham_pa59921"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <h3>Created by  <i class="fa fa-heart-o"></i>  Shubham Santosh Parte | All Rights Reserved</h3>
+                </div>
+            </div>
+        </section>
+         
+        <script>
+            function dropdown(){
+                var auth_token=localStorage.getItem('auth_token');
+                var cp = document.getElementById("cp");
+                var table= document.getElementById("table");
+                if(auth_token!=null ){
+                    cp.style.display = "block";
+                    table.style.display = "block";
+                }
+                else{
+                    cp.style.display = "none";
+                    table.style.display = "none";
+                   
+                }
+            }
+            dropdown();
+        </script>
+        <script>
+      
+          function hideshow(){
+              var auth_token=localStorage.getItem('auth_token');
+              var loginMenu=document.getElementById('loginMenu');
+              var logoutMenu=document.getElementById('logoutMenu');
+        
+              if(auth_token!=null ){
+                  loginMenu.style.display = "none";
+                  logoutMenu.style.display= "block";
+              }
+              else{
+                  //alert("Auth Not FOund")
+                  loginMenu.style.display = "block";
+                  logoutMenu.style.display = "none";
+               }
+              }
+          
+              hideshow();
+          </script>
+          
+
+    </body>
+    
+    
+</html>

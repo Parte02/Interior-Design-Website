@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <title>Interior Design Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width , intial-scale=1.0">
+        <link rel="stylesheet" href="/css/blog.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+    <body>
+        
+        <div class="sub-header1">
+            <div class="navbar">
+                <a href="index.html">
+                    <img src="images/logo2.jpg" class="logo">
+                </a>
+                <ul>
+                    <li><a href="hw.html">How it Works</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                    <li><a href="blog.html" id="blog">Blogs</a></li>
+                    <li class="dropdown">
+                        <button class="dropbtn">Project
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="drop-content">
+                            <a href="project.html">View Project</a>
+                            <a href="create_project.html" id="cp">Project Details</a>
+                            <a href="table.html"  id="table">Report</a>
+                            
+                        </div>
+                    </li>
+                    <li><a href="login.html">
+                        <button id="loginMenu" class="login">LOGIN</button></a>
+                    </li>
+                    <li>
+                        <button id="logoutMenu" class="login" onclick="logout()">LOGOUT</button>
+                    </li>
+                </ul>   
+            </div>      
+        </div>
+
+
+        <section class="blog">
+            <div class="blog-heading">
+                <h1>My Blog</h1>
+            </div>
+            <div class="blog-container">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="/images/blog1.jpg">
+                    </div>
+                    <div class="blog-text">
+                        <span>18 July 2021 / Interior Design</span>
+                        <h3>The Art of Space Planning:</h3>
+                        <p>Effective interior design begins with a well-thought-out space plan. Discover the secrets to arranging furniture, selecting the right layout, and optimizing flow in different rooms. Learn how to make the most of small spaces and create an open, inviting atmosphere in larger ones.</p>
+                        <a href="info.html">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="/images/blog2.jpg">
+                    </div>
+                    <div class="blog-text">
+                        <span>10 August 2021 / Interior Design</span>
+                        <h3>Furniture Fascination:</h3>
+                        <p>Furniture isn't just functional; it's a form of artistic expression. Explore various furniture styles, from classic to contemporary, and understand how to mix and match pieces for a cohesive look. Discover the allure of statement furniture and how to incorporate vintage finds into modern settings.</p>
+                        <a href="info.html">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="/images/blog3.jpg">
+                    </div>
+                    <div class="blog-text">
+                        <span>31 December 2021 / Interior Design</span>
+                        <h3>Color Palette Perfection:</h3>
+                        <p>Colors can set the tone for a room and influence emotions. Dive into the psychology of color and learn how to choose a palette that resonates with your desired ambiance. Explore the magic of color combinations, accent walls, and how to balance vibrant and neutral tones.</p>
+                        <a href="info.html">Read More</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="blog-container">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="/images/blog4.jpg">
+                    </div>
+                    <div class="blog-text">
+                        <span>1 January 2022 / Interior Design</span>
+                        <h3> Lighting Enchantment:</h3>
+                        <p>Lighting can transform a room from mundane to magical.Learn how to choose the right fixtures, play with light intensity, and create a warm and inviting atmosphere in every corner of your space.</p>
+                        <a href="info.html">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="/images/blog5.jpg">
+                    </div>
+                    <div class="blog-text">
+                        <span>22 March 2022 / Interior Design</span>
+                        <h3>Art and Accessories Alchemy:</h3>
+                        <p>The right art and accessories can be the finishing touch that ties a room together. Discover how to curate and display artwork, sculptures, and decorative items. Learn the art of balance – when to go bold and when to keep it understated. </p>
+                        <a href="info.html">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="/images/blog6.jpg">
+                    </div>
+                    <div class="blog-text">
+                        <span>15 July 2022 / Interior Design</span>
+                        <h3>The Outdoors In:</h3>
+                        <p>Biophilic design is all the rage, and for good reason. Learn how to bring the beauty of nature indoors through plants, natural materials, and design elements that promote a sense of well-being.</p>
+                        <a href="info.html">Read More</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>ALCOVE STUDIO</h4>
+                        <ul>
+                            <li><a href="hw.html"h>How it Works</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>More</h4>
+                        <ul>
+                            <li><a href="blog.html">Blogs</a></li>
+                            <li><a href="terms.html">Terms & Condition</a></li>
+                            <li><a href="privacy.html">Privacy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Contact Info</h4>
+                        <p><i class="fa fa-map"></i>  Sarojini Naidu Rd,Near Court,Ashok Nagar,Mulund West,Mumbai,Maharastra 400080</p>
+                        <p><i class="fa fa-phone"></i>  +91 8433831144</p>
+                        <p>Time -  10:00 AM-6:00 PM</p>
+                        <p><i class="fa fa-envelope"></i>  parte.shubham@gmail.com</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get in Touch</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/shubham.parte.980"><i class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/parte.shubham0205?igshid=MzNlNGNkZWQ4Mg=="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shubham-parte-a60219231/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/shubham_pa59921"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <h3>Created by  <i class="fa fa-heart-o"></i>  Shubham Santosh Parte | All Rights Reserved</h3>
+                </div>
+            </div>
+        </section>
+        <script>
+            function dropdown(){
+                var auth_token=localStorage.getItem('auth_token');
+                var cp = document.getElementById("cp");
+                var table= document.getElementById("table");
+                if(auth_token!=null ){
+                    cp.style.display = "block";   
+                    table.style.display = "block";
+                }
+                else{
+                    cp.style.display = "none";
+                    table.style.display = "none";
+                   
+                }
+            }
+            dropdown();
+        </script>
+        <script>
+
+            function hideshow(){
+                var auth_token=localStorage.getItem('auth_token');
+                var loginMenu=document.getElementById('loginMenu');
+                var logoutMenu=document.getElementById('logoutMenu');
+            
+                if(auth_token!=null ){
+                    loginMenu.style.display = "none";
+                    logoutMenu.style.display= "block";
+                }
+                else{
+                    //alert("Auth Not FOund")
+                    loginMenu.style.display = "block";
+                    logoutMenu.style.display = "none";
+                 }
+                }
+            
+                hideshow();
+            </script>
+            <script src="js/logout.js"></script>
+    </body>
+</html>
